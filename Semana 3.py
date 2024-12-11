@@ -6,7 +6,7 @@ def datostemperatura(): #Definimos una funcion para la parte de regristar las te
         temperatura.append(tempr)
     return temperatura
 
-def calcularpromedio(temperaturas): #
+def calcularpromedio(temperaturas): #Aqui con esta funcion vamos a hacer la operacion para calcular el promedio
     """ Calcular el promedio semanal."""
     return sum(temperaturas) / len(temperaturas)
 

@@ -1,4 +1,4 @@
-class clima:
+class clima: #creamos una clase para abarcar todas las fuciones necesarias para el proceso de agregar y promediar las temperaturas
     def __init__(self):
         self.temperatura = []
     def agregartemperatura(self, temperatura):
