@@ -28,7 +28,7 @@ def main():
     print(f"Hola, soy {persona.nombre} y tengo {persona.edad} años.")
 
     # El destructor se llama automáticamente al finalizar el programa o
-    # cuando el objeto se elimina.
+    # cuando el objeto se elimina..
 
 if __name__ == "__main__":
     main()
