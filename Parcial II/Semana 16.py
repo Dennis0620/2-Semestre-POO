@@ -29,7 +29,6 @@ class ListaTareas:
         self.listbox_tareas.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
 
         #Atajos teclado
-        # Atajos de teclado corregidos
         root.bind('<Escape>', lambda e: root.quit())
         root.bind('c', lambda e: self.marcar_completado())  # Tecla 'C' para marcar como completada
         root.bind('d', lambda e: self.eliminar_tarea())  # Tecla 'Delete' para eliminar
